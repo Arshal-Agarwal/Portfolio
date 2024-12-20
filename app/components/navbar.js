@@ -15,10 +15,28 @@ const Navbar = () => {
         </div>
 
         <ul className="hidden md:flex space-x-8">
-          {["Home", "About", "Projects","Certificates" , "Contact" ].map((item, index) => (
+
+        <li  className="relative group">
+              <Link
+                href={`/`}
+                className="text-gray-300 text-lg font-medium tracking-wide flex items-center space-x-2"
+              >
+                {/* Underline Effect */}
+                <span className="absolute bottom-0 left-0 h-0.5 w-full scale-x-0 bg-gradient-to-r from-purple-500 to-cyan-400 transform origin-right group-hover:scale-x-100 transition-transform duration-300"></span>
+                {/* Text with Icon */}
+                <span className="relative group-hover:text-cyan-400 transition-colors duration-300">
+                  Home
+                </span>
+                <span className="text-cyan-400 opacity-0 group-hover:opacity-100 transform group-hover:translate-x-1 transition-transform duration-300">
+                  →
+                </span>
+              </Link>
+            </li>
+
+          {[ "About", "Projects","Certificates" , "Contact" ].map((item, index) => (
             <li key={index} className="relative group">
               <Link
-                href={`/pages/${item.toLowerCase()}`}
+                href={`/Pages/${item.toLowerCase()}`}
                 className="text-gray-300 text-lg font-medium tracking-wide flex items-center space-x-2"
               >
                 {/* Underline Effect */}
