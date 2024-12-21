@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://arshal-agarwal-portfolio.vercel.app
+
+# Sitemaps
+Sitemap: https://arshal-agarwal-portfolio.vercel.app/sitemap.xml
