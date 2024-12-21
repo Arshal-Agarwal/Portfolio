@@ -77,27 +77,29 @@ export default function Home() {
 
         <div className="mt-10">
           <Link href="/Pages/projects">
-          <button className=" text-black dark:text-white relative group bg-transparent border-2 border-gradient-to-r from-purple-700 to-cyan-500 text-transparent bg-clip-text py-3 px-8 hover:bg-gradient-to-r hover:from-purple-700 hover:to-cyan-500  hover:shadow-xl transition-all duration-300 ease-in-out ">
-            <span className="absolute bottom-0 left-0 h-0.5 w-full scale-x-0 bg-gradient-to-r from-purple-700 to-cyan-500 transform origin-right group-hover:scale-x-100 transition-transform duration-300"></span>
-            <span className="relative z-10 transition-colors duration-300 font-semibold tracking-wide text-lg">
-              My Projects
-            </span>
-            <span className="absolute right-2 top-1/2 transform -translate-y-1/2 text-gradient-to-r from-purple-700 to-cyan-500 opacity-0 group-hover:opacity-100 group-hover:translate-x-2 transition-all duration-300">
-              →
-            </span>
+            <button className=" text-black dark:text-white relative group bg-transparent border-2 border-gradient-to-r from-purple-700 to-cyan-500 text-transparent bg-clip-text py-3 px-8 hover:bg-gradient-to-r hover:from-purple-700 hover:to-cyan-500  hover:shadow-xl transition-all duration-300 ease-in-out ">
+              <span className="absolute bottom-0 left-0 h-0.5 w-full scale-x-0 bg-gradient-to-r from-purple-700 to-cyan-500 transform origin-right group-hover:scale-x-100 transition-transform duration-300"></span>
+              <span className="relative z-10 transition-colors duration-300 font-semibold tracking-wide text-lg">
+                My Projects
+              </span>
+              <span className="absolute right-2 top-1/2 transform -translate-y-1/2 text-gradient-to-r from-purple-700 to-cyan-500 opacity-0 group-hover:opacity-100 group-hover:translate-x-2 transition-all duration-300">
+                →
+              </span>
 
-          </button>
+            </button>
           </Link>
 
-          <button className=" ml-4 text-black dark:text-white relative group bg-transparent border-2 border-gradient-to-r from-purple-700 to-cyan-500 text-transparent bg-clip-text py-3 px-8 hover:bg-gradient-to-r hover:from-purple-700 hover:to-cyan-500  hover:shadow-xl transition-all duration-300 ease-in-out ">
-            <span className="absolute bottom-0 left-0 h-0.5 w-full scale-x-0 bg-gradient-to-r from-purple-700 to-cyan-500 transform origin-right group-hover:scale-x-100 transition-transform duration-300"></span>
-            <span className="relative z-10 transition-colors duration-300 font-semibold tracking-wide text-lg">
-              Contact Me
-            </span>
-            <span className="absolute right-2 top-1/2 transform -translate-y-1/2 text-gradient-to-r from-purple-700 to-cyan-500 opacity-0 group-hover:opacity-100 group-hover:translate-x-2 transition-all duration-300">
-              →
-            </span>
-          </button>
+          <Link href="Pages/contact">
+            <button className=" ml-4 text-black dark:text-white relative group bg-transparent border-2 border-gradient-to-r from-purple-700 to-cyan-500 text-transparent bg-clip-text py-3 px-8 hover:bg-gradient-to-r hover:from-purple-700 hover:to-cyan-500  hover:shadow-xl transition-all duration-300 ease-in-out ">
+              <span className="absolute bottom-0 left-0 h-0.5 w-full scale-x-0 bg-gradient-to-r from-purple-700 to-cyan-500 transform origin-right group-hover:scale-x-100 transition-transform duration-300"></span>
+              <span className="relative z-10 transition-colors duration-300 font-semibold tracking-wide text-lg">
+                Contact Me
+              </span>
+              <span className="absolute right-2 top-1/2 transform -translate-y-1/2 text-gradient-to-r from-purple-700 to-cyan-500 opacity-0 group-hover:opacity-100 group-hover:translate-x-2 transition-all duration-300">
+                →
+              </span>
+            </button>
+          </Link>
         </div>
         <div className="flex mt-10">
 
