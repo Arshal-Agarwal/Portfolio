@@ -27,6 +27,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <meta name="keywords" content="Arshal Agarwal, portfolio, software engineer, developer, CSE student, Next.js" />
+        <meta name="google-site-verification" content="_oDRibaBUDZaRSx8IuKLDE23lNXRPzG-PbHxYT8ztfk" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${robotoMono.variable} antialiased`} // Add Roboto Mono variable here
       >
@@ -38,4 +42,3 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
-  
