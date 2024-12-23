@@ -10,7 +10,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 w-full bg-gradient-to-r from-black via-gray-900 to-black backdrop-blur-lg z-50 shadow-lg border-b border-cyan-500/30">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
 
-        <div className="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-teal-300 via-indigo-500 to-rose-400">
+        <div className="text-3xl font-extrabold text-transparent bg-clip-text bg-blue-500">
           <Link href="#" ><span className="text-white">A</span>rshal <span className="text-white">A</span>garwal </Link>
         </div>
 
